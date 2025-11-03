@@ -1,1 +1,56 @@
-
+{
+    "John Doe": {
+        "gender": "Male",
+        "father": "",
+        "mother": "",
+        "spouse": "Jane Doe",
+        "children": ["Michael Doe", "Emily Doe"],
+        "contact": "+1-555-111-2222",
+        "location": "New York, USA"
+    },
+    "Jane Doe": {
+        "gender": "Female",
+        "father": "",
+        "mother": "",
+        "spouse": "John Doe",
+        "children": ["Michael Doe", "Emily Doe"],
+        "contact": "+1-555-111-3333",
+        "location": "New York, USA"
+    },
+    "Michael Doe": {
+        "gender": "Male",
+        "father": "John Doe",
+        "mother": "Jane Doe",
+        "spouse": "Sophia Doe",
+        "children": ["Liam Doe"],
+        "contact": "+1-555-222-4444",
+        "location": "Boston, USA"
+    },
+    "Sophia Doe": {
+        "gender": "Female",
+        "father": "",
+        "mother": "",
+        "spouse": "Michael Doe",
+        "children": ["Liam Doe"],
+        "contact": "+1-555-333-5555",
+        "location": "Boston, USA"
+    },
+    "Emily Doe": {
+        "gender": "Female",
+        "father": "John Doe",
+        "mother": "Jane Doe",
+        "spouse": "",
+        "children": [],
+        "contact": "+1-555-444-6666",
+        "location": "San Francisco, USA"
+    },
+    "Liam Doe": {
+        "gender": "Male",
+        "father": "Michael Doe",
+        "mother": "Sophia Doe",
+        "spouse": "",
+        "children": [],
+        "contact": "+1-555-555-7777",
+        "location": "Boston, USA"
+    }
+}
